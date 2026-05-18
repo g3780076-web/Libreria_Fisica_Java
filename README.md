@@ -1,3 +1,3 @@
 # Fisica
 
-## Atencion esta libreria puede contener errores
+## Atencion esta libreria esta hecha por un principiante
