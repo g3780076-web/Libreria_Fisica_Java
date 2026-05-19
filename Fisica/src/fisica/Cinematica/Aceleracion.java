@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Cinematica;
+package fisica.Cinematica;
 
 import fisica.Unidades.Tiempo;
 
 /**
  *
- * @author usumaniana
+ * @author Guillermo Alberca Torres
  */
 public class Aceleracion {
     private Velocidad vi;
@@ -21,7 +21,7 @@ public class Aceleracion {
         this.t = t;
     }
     public double calcularAceleracion(){
-        return(vf.calcularVelocidad()-vi.calcularVelocidad())/t.Obtenertiempo();
+        return(vf.calcularVelocidad()-vi.calcularVelocidad())/t.mostrarUnidades();
     }
     
 }

@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit;
  *
  * @author usumaniana
  */
-public class Tiempo {
+public class Tiempo extends Unidades{
     private LocalDateTime t1;
     private LocalDateTime t2;
     private LocalDate l1;
@@ -27,16 +27,14 @@ public class Tiempo {
         this.t1 = t1;
         this.t2 = t2;
     }
-    
-    public long Obtenertiempo(){
-        
+
+    @Override
+    public double mostrarUnidades() {
         if(l1==null && l2==null){
         return ChronoUnit.SECONDS.between(t1, t2);
         }else{
           return ChronoUnit.SECONDS.between(l1, l2);
         }
-        
-        
     }
     
     

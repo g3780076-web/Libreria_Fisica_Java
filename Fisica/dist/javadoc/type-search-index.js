@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"fisica.Cinematica","l":"Aceleracion"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"fisica.Unidades","l":"Masa"},{"p":"fisica.Unidades","l":"Posicion"},{"p":"fisica.Unidades","l":"Tiempo"},{"p":"fisica.Unidades","l":"Unidades"},{"p":"fisica.Cinematica","l":"Velocidad"}];updateSearchResults();

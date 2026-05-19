@@ -11,7 +11,7 @@ package fisica.Unidades;
  * Puedes introducir la unidad de masa que 
  * mas te guste pero bajo tu propia responsabilidad
  */
-public class Masa {
+public class Masa extends Unidades{
     
     private double masa;
 
@@ -19,12 +19,13 @@ public class Masa {
         this.masa = masa;
     }
 
-    public double getMasa() {
-        return masa;
-    }
-
     public void setMasa(double masa) {
         this.masa = masa;
+    }
+
+    @Override
+    public double mostrarUnidades() {
+        return masa;
     }
     
     

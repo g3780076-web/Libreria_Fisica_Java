@@ -8,7 +8,7 @@ package fisica.Unidades;
  *
  * @author usumaniana
  */
-public class Posicion {
+public class Posicion extends Unidades{
     private double x1;
     private double x2;
 
@@ -25,9 +25,8 @@ public class Posicion {
         return x2;
     }
 
-    
-    
-    public double obtenerPosicion(){
+    @Override
+    public double mostrarUnidades() {
         return x2-x1;
     }
     

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Cinematica;
+package fisica.Cinematica;
 
 import fisica.Unidades.Posicion;
 import fisica.Unidades.Tiempo;
@@ -42,7 +42,7 @@ public class Velocidad {
     }
     
     public double calcularVelocidad(){
-        return p.obtenerPosicion()/t.Obtenertiempo();//Revisar la formula
+        return p.mostrarUnidades()/t.mostrarUnidades();//Revisar la formula
     }
     
 }
